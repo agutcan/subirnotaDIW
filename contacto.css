@@ -1,0 +1,79 @@
+/* Fondo con degradado azul oscuro a negro */
+.navbar-custom {
+    background: linear-gradient(90deg, #1A1A2E, #000000);
+}
+
+/* Enlaces de navegación */
+.nav-link {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+#submit.nav-link {
+    color: black;
+}
+
+.nav-link:hover {
+    color: #D72638;
+}
+
+/* Botón de acción con degradado */
+.btn-custom {
+    background: linear-gradient(90deg, #D72638, #FFD700);
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(90deg, #FFD700, #D72638);
+    color: #000;
+}
+
+/* Fondo con degradado */
+body {
+    background: linear-gradient(180deg, #1A1A2E, #000000);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Tarjeta de contacto (similar a auth-container) */
+.contact-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.3);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Estilos de los inputs */
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Botón de enviar */
+.btn-custom {
+    background: linear-gradient(90deg, #D72638, #FFD700);
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(90deg, #FFD700, #D72638);
+    color: #000;
+}
+
+/* Texto en blanco */
+label {
+    color: white;
+}

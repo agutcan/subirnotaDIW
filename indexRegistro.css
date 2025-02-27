@@ -1,0 +1,48 @@
+/* Fondo con degradado */
+body {
+    background: linear-gradient(180deg, #1A1A2E, #000000);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Tarjeta de registro */
+.auth-container {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(255, 215, 0, 0.3);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Estilos de los inputs */
+.form-control {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    color: white;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Botón de registro */
+.btn-custom {
+    background: linear-gradient(90deg, #D72638, #FFD700);
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(90deg, #FFD700, #D72638);
+    color: #000;
+}
+
+/* Texto en blanco */
+label {
+    color: white;
+}

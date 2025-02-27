@@ -1,0 +1,36 @@
+/* Fondo con degradado azul oscuro a negro */
+.navbar-custom {
+    background: linear-gradient(90deg, #1A1A2E, #000000);
+}
+
+/* Enlaces de navegación */
+.nav-link {
+    color: #FFD700;
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #D72638;
+}
+
+/* Botón de acción con degradado */
+.btn-custom {
+    background: linear-gradient(90deg, #D72638, #FFD700);
+    color: #000;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-custom:hover {
+    background: linear-gradient(90deg, #FFD700, #D72638);
+    color: #000;
+}
+
+/* Fondo con degradado */
+body {
+    background: linear-gradient(180deg, #1A1A2E, #000000);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
